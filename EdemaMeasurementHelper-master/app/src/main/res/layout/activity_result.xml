@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg8"
+    android:layout_height="match_parent"
+    tools:context="com.example.zhoud.iotproject4.ResultActivity">
+
+
+    <TextView
+        android:id="@+id/bouncingtime"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:text="REBOUND TIME"
+        android:textColor="#FF000000"
+        android:textSize="40sp"
+        android:layout_below="@+id/success"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp" />
+
+    <TextView
+        android:id="@+id/stage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="75dp"
+        android:text="STAGE"
+        android:textColor="#FF000000"
+        android:textSize="40sp"
+        android:layout_marginBottom="58dp"
+        android:layout_above="@+id/stagetext"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/success"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/success2" />
+
+    <TextView
+        android:id="@+id/bouncingtimeview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:layout_alignTop="@+id/bouncingtime"
+         />
+
+    <TextView
+        android:id="@+id/stagetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="47dp"
+        android:textSize="30dp"
+        android:text="TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+       />
+
+</RelativeLayout>

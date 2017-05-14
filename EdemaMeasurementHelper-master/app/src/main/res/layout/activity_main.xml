@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+
+    tools:context="com.example.zhoud.iotproject4.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpload"/>
+
+    <TextView
+        android:id="@+id/bouncingtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResponse" />
+
+    <ImageButton
+        android:id="@+id/buttonChoose"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/loginbutton_bg"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/cameraicon"
+        android:layout_marginEnd="22dp"
+        android:layout_above="@+id/textViewResponse"
+        android:layout_toStartOf="@+id/buttonUpload" />
+
+    <ImageButton
+        android:id="@+id/buttonUpload"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="114dp"
+        android:adjustViewBounds="true"
+
+        android:background="@drawable/loginbutton_bg"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/up3"
+        android:layout_marginEnd="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/history"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/buttonChoose"
+        android:layout_below="@+id/bouncingtime"
+        android:background="@null"
+        app:srcCompat="@drawable/history3"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+
+    <ImageButton
+        android:id="@+id/tip"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/tip2"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_below="@+id/bouncingtime"
+        android:layout_alignEnd="@+id/buttonUpload" />
+
+    <TextView
+        android:id="@+id/cameratext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="30sp"
+        android:text="CAMERA"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_above="@+id/buttonChoose"
+        android:layout_alignEnd="@+id/buttonChoose" />
+
+    <TextView
+        android:id="@+id/uploadtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cameratext"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/cameratext"
+        android:layout_marginStart="45dp"
+        android:text="UPLOAD" />
+
+    <TextView
+        android:id="@+id/HISTORY"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignStart="@+id/cameratext"
+        android:layout_below="@+id/history"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="18dp"
+        android:text="HISTORY" />
+
+    <TextView
+        android:id="@+id/TIPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/uploadtext"
+        android:layout_alignTop="@+id/HISTORY"
+        android:layout_marginStart="26dp"
+        android:textSize="30sp"
+        android:text="TIPS" />
+
+
+</RelativeLayout>

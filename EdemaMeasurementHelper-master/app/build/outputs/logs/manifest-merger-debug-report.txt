@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:8:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\zhoud\.android\build-cache\96fb3c6d8965b0d55abe510aaf99c6574f5dd68c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\zhoud\.android\build-cache\109dfa7c9f8d2a3031356224022d5ed6150fd3a2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\zhoud\.android\build-cache\236d5c2be04fd265d179990345d154df43fa9ae1\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\zhoud\.android\build-cache\e6b77bd9f8d3e5dcca78719a267055edc27e8e1d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\zhoud\.android\build-cache\634f1533eef2651ec5842e14731ff9838bbc6f14\output\AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.0] C:\Users\zhoud\.android\build-cache\5f43fd074cdb299e7396970e34bd04edab035089\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\zhoud\.android\build-cache\4ab03d0c6a622b0ea52223a0fb149586594af6da\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\zhoud\.android\build-cache\afd9887b3a439882ad5afe2b8df625e477875908\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\zhoud\.android\build-cache\c7f07880e7db7d8e1bb63a110267e95b3c59e30f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\zhoud\.android\build-cache\c4548ae636d2583690bec4421d6bf8eaa44fe6a5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\zhoud\.android\build-cache\935c3be7d6f0009e27fc80cf18b2d65ef8ea5c28\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\zhoud\.android\build-cache\4464dd61e2231bdb51c6bd93c326a2131e250129\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:13:9-65
+activity#com.example.zhoud.iotproject4.MainActivity
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:14:9-16:20
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:14:19-47
+activity#com.example.zhoud.iotproject4.LoginActivity
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:17:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.zhoud.iotproject4.RegisterActivity
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:24:9-54
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:24:19-51
+activity#com.example.zhoud.iotproject4.ResultActivity
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:25:19-49
+activity#com.example.zhoud.iotproject4.HistoryActivity
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:26:19-50
+activity#com.example.zhoud.iotproject4.History2Activity
+ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:28:9-92
+	android:screenOrientation
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:28:52-89
+	android:name
+		ADDED from C:\Edemahelper\app\src\main\AndroidManifest.xml:28:19-51
+uses-sdk
+INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\zhoud\.android\build-cache\96fb3c6d8965b0d55abe510aaf99c6574f5dd68c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\zhoud\.android\build-cache\109dfa7c9f8d2a3031356224022d5ed6150fd3a2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\zhoud\.android\build-cache\236d5c2be04fd265d179990345d154df43fa9ae1\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\zhoud\.android\build-cache\e6b77bd9f8d3e5dcca78719a267055edc27e8e1d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\zhoud\.android\build-cache\634f1533eef2651ec5842e14731ff9838bbc6f14\output\AndroidManifest.xml:7:5-43
+MERGED from [com.jjoe64:graphview:4.2.0] C:\Users\zhoud\.android\build-cache\5f43fd074cdb299e7396970e34bd04edab035089\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\zhoud\.android\build-cache\4ab03d0c6a622b0ea52223a0fb149586594af6da\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\zhoud\.android\build-cache\afd9887b3a439882ad5afe2b8df625e477875908\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\zhoud\.android\build-cache\c7f07880e7db7d8e1bb63a110267e95b3c59e30f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\zhoud\.android\build-cache\c4548ae636d2583690bec4421d6bf8eaa44fe6a5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\zhoud\.android\build-cache\935c3be7d6f0009e27fc80cf18b2d65ef8ea5c28\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\zhoud\.android\build-cache\4464dd61e2231bdb51c6bd93c326a2131e250129\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\zhoud\.android\build-cache\96fb3c6d8965b0d55abe510aaf99c6574f5dd68c\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Edemahelper\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\zhoud\.android\build-cache\96fb3c6d8965b0d55abe510aaf99c6574f5dd68c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\zhoud\.android\build-cache\109dfa7c9f8d2a3031356224022d5ed6150fd3a2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\zhoud\.android\build-cache\236d5c2be04fd265d179990345d154df43fa9ae1\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\zhoud\.android\build-cache\4ab03d0c6a622b0ea52223a0fb149586594af6da\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\zhoud\.android\build-cache\afd9887b3a439882ad5afe2b8df625e477875908\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\zhoud\.android\build-cache\c7f07880e7db7d8e1bb63a110267e95b3c59e30f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\zhoud\.android\build-cache\c4548ae636d2583690bec4421d6bf8eaa44fe6a5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\zhoud\.android\build-cache\935c3be7d6f0009e27fc80cf18b2d65ef8ea5c28\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\zhoud\.android\build-cache\4464dd61e2231bdb51c6bd93c326a2131e250129\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\zhoud\.android\build-cache\96fb3c6d8965b0d55abe510aaf99c6574f5dd68c\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\zhoud\.android\build-cache\96fb3c6d8965b0d55abe510aaf99c6574f5dd68c\output\AndroidManifest.xml:26:9-47
