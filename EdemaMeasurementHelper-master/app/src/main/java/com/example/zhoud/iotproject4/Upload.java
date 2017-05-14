@@ -25,7 +25,7 @@ public class Upload {
 
    // public static final String UPLOAD_URL= "http://209.2.236.72/AndroidFileUpload/upload.php";
 //public static final String UPLOAD_URL= "http://209.2.236.72/AndroidFileUpload/upload.php";
- public static final String UPLOAD_URL= "http://34.206.147.22/AndroidFileUpload/upload.php";
+ public static final String UPLOAD_URL= "http://**/AndroidFileUpload/upload.php";
     private int serverResponseCode;
 
     public String uploadVideo(String file) {
