@@ -15,4 +15,4 @@ dynamodb.py:
     store the results of a pitting test video including edema dent duration and edema stage into AWS DynamoDB  
 ```
 ## Application Usage
-https://youtu.be/OxjonWR1HlM
+Youtube Link: https://youtu.be/OxjonWR1HlM
