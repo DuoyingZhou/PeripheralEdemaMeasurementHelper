@@ -13,10 +13,11 @@ def video2frame(video_path, video_name, save_path):
     print("frame rate per second: {}".format(fps))
     # define save directory
     # save_path = "../predata/"
-    video_path = video_name.split(".")[0]
+    start_point = 5
+    video_path = video_name.split(".")[0] + "_" + str(start_point)
     stage_name = "stage" + video_name[0] + "_"
 
-    frame_no = 6 * int(fps)
+    frame_no = start_point * int(fps)
     ret = True
     image_id = 0
     frame_count = 0
