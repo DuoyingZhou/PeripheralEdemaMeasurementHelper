@@ -16,11 +16,16 @@ def videocrop(filename):
 	croppedimage = 0
 	while success:
 		success,image = vidcap.read()
-		print('Read a new frame: ', success)
+#		print('Read a new frame: ', success)
 		if not success:
 			break
-		if count % interval == 0:
+		if count  == 0:
 			r = cv2.selectROI(image)
+			print(r)
+			imCrop = image[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])]
+			cv2.imwrite(filename + "_frame%d.jpg" % count, imCrop)
+			croppedimage = croppedimage + 1
+		if count != 0 and count % interval == 0:
 			imCrop = image[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])]
 			cv2.imwrite(filename + "_frame%d.jpg" % count, imCrop)
 			croppedimage = croppedimage + 1
